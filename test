@@ -16,5 +16,5 @@ class File:
         return False
 
 
-with File('data.txt', 'r') as f:
+with File('read.txt', 'r') as f:
     print(int(next(f)))
